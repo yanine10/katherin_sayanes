@@ -1,0 +1,578 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+header{
+    background-color: #062968;
+    width: 100%;
+    height: 130px;
+}
+
+img{
+    width: 250px;
+}
+
+h1 {
+    font-size: 35px;
+    color: #0A2969;
+    font-family: "Alike", serif;
+}
+
+h2 {
+    font-family: "Alike", serif;
+}
+
+p {
+    font-size: 20px;
+    color: #0A2969;
+}
+
+ul{
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #A4A5AC;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin: 10px 0 10px 0;
+}
+
+.quienesomos {
+    background-color: #DCD9D9;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.quienesomos h2 {
+    font-family: "Roboto", sans-serif;
+    color: #002366;
+    margin-left: 30px;
+}
+
+.quienesomos h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 14px;
+    font-style: normal;
+    margin-left: 30px;
+}
+
+.quienesomos p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 14px;
+    font-style: normal;
+    color: #002366;
+    font-size: 21px;
+    padding-right: 30px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    word-spacing: 0.2em;
+    margin-bottom: 8px;
+}
+
+#objetivosociales {
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+.botonobjetivos {
+    padding-left: 30px;
+}
+
+.caja1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 5px;
+    font-family: "Roboto", sans-serif;
+}
+
+.caja1 h1 {
+    font-family: "Roboto", sans-serif;
+    color: #002366;
+}
+
+.caja1 img {
+    border-radius: 50px;
+}
+
+.caja2 img {
+    border-radius: 50px;
+}
+
+.caja3 img {
+    border-radius: 50px;
+}
+
+.caja2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5px;
+    font-family: "Roboto", sans-serif;
+}
+
+.caja2 h1 {
+    font-family: "Roboto", sans-serif;
+    color: #002366;
+}
+
+.caja3{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5px;
+    font-family: "Roboto", sans-serif;
+}
+
+.caja3 h1 {
+    font-family: "Roboto", sans-serif;
+    color: #002366;
+}
+
+.inicial{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #002366;
+    padding-left: 50px;
+    color: white;
+    margin: 10px 0 10px 0; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+}    
+
+.inicial h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 28px;
+    font-style: normal;
+}
+
+.inicial h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 14px;
+    font-style: normal;
+}
+
+#nosotros{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #c9c4c4a3;
+    padding-left: 10px;
+}
+
+#nosotros iframe{
+    padding: 30px
+}
+
+.contenedor2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #062968;
+    padding-left: 50px;
+    color: #A5A8A8;
+    padding-top: 20px;
+}
+
+.contenedor2 h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.contenedor2 h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.contenedor2 h4{
+    color: #DCD9D9
+}
+
+.mapa{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #062968;
+    padding-left: 150px;
+    padding-right: 150px;
+    color: #A5A8A8;
+    padding-bottom: 50px;  
+    justify-content: space-between;
+}
+
+footer p{
+    padding-left: 50px;
+    background-color: #DAA82F;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.menu {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #062968;
+}
+
+.menuItems{
+    padding-right: 15px;
+    background-color: #062968;
+}
+
+.menu a{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    background-color: #062968;
+}
+
+#caja1a{
+    display: flex;    
+}
+
+#caja2a{
+    display: flex;  
+}
+
+#caja3a{
+    display: flex;  
+}
+
+#caja11 {
+    color: #002366;
+    font-size: 21px;
+    padding-right: 30px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    word-spacing: 0.2em;
+    display: none;
+}
+
+#caja21 {
+    color: #002366;
+    font-size: 21px;
+    padding-right: 30px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    word-spacing: 0.2em;
+    display: none;
+}
+
+#caja31 {
+    color: #002366;
+    font-size: 21px;
+    padding-right: 30px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    word-spacing: 0.2em;
+    display: none;
+}
+
+.floating-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column-reverse; 
+    align-items: center;
+    z-index: 100; 
+  }
+  
+  .social-button {
+    width: 50px; 
+    height: 50px;
+    margin-bottom: 10px; 
+    opacity: 0; 
+    visibility: hidden; 
+    transition: opacity 0.3s, visibility 0.3s, transform 0.3s;
+    transform: translateY(10px); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-button.whatsapp {
+    opacity: 1; 
+    visibility: visible;
+    transform: translateY(0); 
+    z-index: 101; 
+  }
+  
+  .floating-container:hover .social-button {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px); 
+  }
+  
+  #formulario {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    flex-direction: column;
+    display: none;
+}
+
+#formulario h2 {
+    text-align: center;
+    color: #002366;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#formulario form {
+    display: grid;
+    gap: 1rem;
+}
+
+#formulario label {
+    font-weight: bold;
+    color: #505050;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#formulario input,
+#formulario textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#formulario button {
+    background-color: hsl(43, 82%, 60%); 
+    color: #002366; 
+    padding: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#formulario button:hover {
+    background-color: #ffc107; 
+}
+
+.formunidos {
+    display: flex;
+    flex-direction: row;
+}
+
+#formularioPayPal {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    flex-direction: column;
+    display: none;
+}
+
+#formularioPayPal h2 {
+    text-align: center;
+    color: #002366;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#formularioPayPal form {
+    display: grid;
+    gap: 1rem;
+}
+
+#formularioPayPal label {
+    font-weight: bold;
+    color: #505050;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#formularioPayPal input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#formularioPayPal button {
+    background-color: hsl(43, 82%, 60%);
+    color: #002366;
+    padding: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#formularioPayPal button:hover {
+    background-color: #ffc107;
+}
+
+.apoyan {
+    display: flex;
+    flex-direction: row;
+}
+
+.apoyan img {
+    width: 25%; 
+    height: auto;
+    padding-left: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+}
+
+.apoyan h3 {
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .seccion-clara {
+    color: black;
+    background-color: white ;
+}
+
+.seccion-texto {
+    font-size: 1.2rem;
+}
+
+.seccion-titulo {
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: "Roboto", sans-serif;
+    color: #002366;
+}
+
+.proyectos-recientes {
+    padding: 40px;
+}
+
+.proyectos-recientes img {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    transition: all 0.2s ease;
+}
+
+.proyectos-contenedor {
+    padding-top: 60px;
+    margin-bottom: 40px;
+}
+
+.overlay {
+    transition: all 0.2s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;   
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay p {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.proyecto {
+    position: relative;
+}
+
+.proyecto:hover img {
+    opacity: 0.2;
+}
+
+.proyecto:hover .overlay {
+    opacity: 1;
+}
+
+.overlay .iconos-contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+.overlay i {
+    color: black;
+    font-size: 60px;
+    margin: 10px;
+}
+
+.table {
+    color: #ffffff; 
+  }
+  
+.table thead th {
+    background-color: #ffb400; 
+  }
+  
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #5a7d9a; 
+}
+  
+.table-striped tbody tr:nth-of-type(even) {
+    background-color: #f2f2f2; 
+    color: #333; 
+}
+  
+.table-hover tbody tr:hover {
+    background-color: #41658a; 
+  }
+  
+.table-container {
+    background: linear-gradient(180deg, #0b3c5d 0%, #41658a 100%);
+    padding: 20px;
+    border-radius: 5px; 
+}
+
+.container h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 14px;
+    font-style: normal;
+}
